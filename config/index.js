@@ -68,9 +68,9 @@ export const config = {
       // 所在省份
       province: "江苏",
       // 所在城市
-      city: "肇庆",
+      city: "南京",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '02-06',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -96,15 +96,15 @@ export const config = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      id: "wx6922e910e8323ab7",
+      useTemplateId: "e4512213f5c46a60d019adb0568c5cb1",
+      province: "江苏",
+      city: "南京",
+      horoscopeDate: '02-06',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [{"type": "*生日", "name": "老婆", "year": "2003", "date": "02-06"},],
+      customizedDateList: [  {"keyword": "love_day", date: "2022-09-08"}]
     },
     {
       name: "老婆2",
